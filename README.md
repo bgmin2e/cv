@@ -38,7 +38,7 @@ Front-end Software Engineer
 ## Projects
 <details>
 <summary>테스트 주도 개발 도입</summary>
-
+<div markdown="1">
 > 더 자세한 내용이 궁금하시면 아래 링크를 참고해주세요.<br/> ** [발표 자료 보러가기](https://github.com/bgmin2e/fragment_of_learning/blob/main/Testing/TestCode/%ED%94%84%EB%A1%A0%ED%8A%B8%EA%B0%80-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%93%9C-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%A8%3F-%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0.md)
 
 - 문제 상황
@@ -68,7 +68,7 @@ Front-end Software Engineer
     - 버그 없이 안전하게 보험자격 조회 로직 리팩토링을 완수할 수 있었습니다.
     - 리팩토링에 두려움 없이 임할 수 있게 되어 DX 가 개선되었음을 느꼈습니다.
     - 개발명세서가 마련되어 신규 개발자가 해당 도메인을 이해하는 데 걸리는 시간을 줄일 수 있었습니다.
-
+</div>
 </details>
 
 <details>
