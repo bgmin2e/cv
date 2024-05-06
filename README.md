@@ -10,7 +10,7 @@ Front-end Software Engineer
 
 - 메디블록 (2021.03 ~ 재직중)
     ```
-    헬스케어 스타트업 메디블록에서 '닥터팔레트' 라는 EMR 서비스를 개발하고 있습니다. EMR은 병원에서 의사 선생님들이 사용하는 진료 기록 프로그램입니다. <br/>
+    헬스케어 스타트업 메디블록에서 '닥터팔레트' 라는 EMR 서비스를 개발하고 있습니다. EMR은 병원에서 의사 선생님들이 사용하는 진료 기록 프로그램입니다.
     계약 병원 수 0 곳 일 때 합류하여 프로젝트 설계부터 배포까지 함께했으며, 현재는 100 곳이 넘는 병원에서 사용하고 있습니다.
     ```
 	 - 닥터팔레트 Web 프론트엔드 개발
@@ -39,9 +39,7 @@ Front-end Software Engineer
 <details>
 <summary>테스트 주도 개발 도입</summary>
 
-```
-더 자세한 내용이 궁금하시면 다음 링크를 참고해주세요. [[발표 자료 보러가기](https://github.com/bgmin2e/fragment_of_learning/blob/main/Testing/TestCode/%ED%94%84%EB%A1%A0%ED%8A%B8%EA%B0%80-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%93%9C-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%A8%3F-%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0.md)]
-```
+> 더 자세한 내용이 궁금하시면 아래 링크를 참고해주세요.<br/> ** [발표 자료 보러가기](https://github.com/bgmin2e/fragment_of_learning/blob/main/Testing/TestCode/%ED%94%84%EB%A1%A0%ED%8A%B8%EA%B0%80-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%93%9C-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%A8%3F-%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0.md)
 
 - 문제 상황
 
