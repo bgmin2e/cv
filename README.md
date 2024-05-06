@@ -73,7 +73,7 @@ Front-end Software Engineer
 
 <details>
 <summary>하위 사이트 모듈화 및 자동 로그인 연동 구현</summary>
-
+<div markdown="1">
 - 문제 상황
 
     Business
@@ -96,12 +96,12 @@ Front-end Software Engineer
 - 결과
     - 유저의 이용 목적에 맞게 기능별로 인증 정책을 구분할 수 있게 되었습니다.
     - 모듈화를 통해 Repository의 복잡성을 낮추고 유연성을 제고할 수 있었습니다. 
-
+</div>
 </details>
 
 <details>
 <summary>디자인 시스템 관리를 위한 스토리북 도입</summary>
-
+<div markdown="1">
 - 문제 상황
     - 디자인 시스템이 존재하지만, Figma 로만 관리되고 있습니다.
     - Figma 에는 간단한 스펙만 정의되어 있고, 세부적인 동작 방식은 개발자와 디자이너 간 구두 논의로 정해지는 경우가 빈번합니다. 
@@ -119,11 +119,12 @@ Front-end Software Engineer
 - 결과
     - 디자인 시스템의 일관성을 유지하고 관리하는 데 큰 도움이 되었습니다.
     - UI 개발과 디자이너 간의 협업이 원활해져서 결과물의 퀄리티가 높아졌습니다.
+</div>
 </details>
 
 <details>
 <summary>모바일 웹 브라우징 사용성 개선</summary>
-
+<div markdown="1">
 - 문제 상황
 
     Business
@@ -143,11 +144,12 @@ Front-end Software Engineer
 - 결과
     - 클릭 이벤트 딜레이 문제가 해결되어 터치 이벤트 반응 속도가 향상되었고, 이로 인해 유저의 모바일 웹 브라우징 경험이 개선되었습니다.
     - 공용 이벤트 타입 변환 함수를 통해 코드 중복이 최소화되었고, 유지보수 및 확장성이 향상되었습니다.
+</div>
 </details>
 
 <details>
 <summary>Front-end 주도 GraphQL  Schema 설계</summary>
-
+<div markdown="1">
 - 문제상황
     - 빠른 개발 속도가 중요한 상황이기에 GraphQL Schema 는 Back-end에서 설계하고, 이후 Front-end가 투입되는 방식으로 개발을 진행합니다.
     - GraphQL 의 컨셉 상 버전 관리가 불가능하기에,  Back-end에서 Schema 변경 시 Front-end 에서 즉각적으로 대응을 해야합니다. 그렇지 않으면 컴파일 타임과 런타임 에러가 발생할 수 있습니다.
@@ -165,7 +167,7 @@ Front-end Software Engineer
     - GraphQL의 장점을 최대한 활용하여 Front-end 개발자들이 필요로 하는 데이터를 쉽게 가져올 수 있게 되었습니다.
     - 한 번 합의된 Schema 는 변경될 가능성이 적어, Schema 변경에 대응해야하는 시간이 감소했습니다.​
     - 미처 발견하지 못한 런타임 에러를 방지하여 프로덕트의 안정성을 높일 수 있었습니다.
-
+</div>
 </details>
 
 ## Side Projects
