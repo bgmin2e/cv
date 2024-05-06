@@ -1,0 +1,1 @@
+# bgmin.github.io
