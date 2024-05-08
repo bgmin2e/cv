@@ -10,9 +10,10 @@ Front-end Software Engineer
 
 - 메디블록 (2021.03 ~ 재직중)
     ```
-    헬스케어 스타트업 메디블록에서 '닥터팔레트' 라는 EMR 서비스를 개발하고 있습니다. EMR은 병원에서 의사 선생님들이 사용하는 진료 기록 프로그램입니다.
-    계약 병원 수 0 곳 일 때 합류하여 프로젝트 설계부터 배포까지 함께했으며, 현재는 100 곳이 넘는 병원에서 사용하고 있습니다.
+    헬스케어 스타트업 메디블록은 EMR 서비스인 '닥터팔레트'를 제공하고 있습니다. EMR이란, 병원에서 의사 선생님들이 사용하는 진료 기록 프로그램을 의미합니다.
+    저는 계약 병원 수 0 곳 일 때 합류하여 프로젝트 설계부터 배포까지 함께했으며, 현재는 100 곳이 넘는 병원에서 사용하고 있습니다.
     ```
+
 	 - 닥터팔레트 Web 프론트엔드 개발
      - 닥터팔레트 Mobile App 프론트엔드 개발
 
@@ -35,11 +36,13 @@ Front-end Software Engineer
 - CSS
     - Tailwind, Styled Component, SCSS
 
+## Education
+
+- 중앙대학교, 광고홍보학과 (2014.03 - 2018.02)
 ## Projects
 <details>
 <summary>테스트 주도 개발 도입</summary>
 <div markdown="1">
-> 더 자세한 내용이 궁금하시면 아래 링크를 참고해주세요.<br/> ** [발표 자료 보러가기](https://github.com/bgmin2e/fragment_of_learning/blob/main/Testing/TestCode/%ED%94%84%EB%A1%A0%ED%8A%B8%EA%B0%80-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%93%9C-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%A8%3F-%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0.md)
 
 - 문제 상황
 
@@ -55,14 +58,14 @@ Front-end Software Engineer
 - 해결 과정
 
     - 테스트 코드를 먼저 작성하고, 이를 통과하는 보험자격 조회 로직을 작성하면 안정성을 보장할 수 있을 것이라고 판단했습니다.
-        - Jest 라이브러리 사용
+        - Jest 라이브러리 초기 셋팅
         - 시범적으로 보험자격 조회 기능의 Unit Test 부터 작성
-        - 단순 테스트 목적 뿐 아니라, 개발 명세서로서의 역할도 수행할 수 있도록 BDD(Behavior-Driven Development) 컨셉을 적용하여 human-freindly 하게 작성
+        - 단순 테스트 목적 뿐 아니라, 개발 명세서로서의 역할도 수행할 수 있도록 BDD(Behavior-Driven Development) 컨셉 적용
     - 복잡한 도메인 로직을 다루는 데에 함수형 프로그래밍 기법이 도움이 될 것이라고 판단했습니다. 
         - 의도치 않은 Side Effect 방지를 위해 React State 최소화 & 순수 함수로만 작성
         - 보험자격 분류 로직과 UI Rendering 함수를 분리하여 테스트 소요 시간 최소화
     - GitHub Action 에 테스트 절차 추가하여 통과하지 못하면 배포로 이어지지 않도록 설정했습니다.
-    - 위 내용을 정리하여 팀 회의 시간에 공유하고, 문서화하여 팀 Notion 에 기록해두었습니다.
+    - 위 내용을 토대로 [가이드 문서](https://github.com/bgmin2e/fragment_of_learning/blob/main/Testing/TestCode/%ED%94%84%EB%A1%A0%ED%8A%B8%EA%B0%80-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%93%9C-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%A8%3F-%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B3%A0%EC%B0%B0.md)를 작성하고, 팀 회의 시간에 공유했습니다.
 
 - 결과
     - 버그 없이 안전하게 보험자격 조회 로직 리팩토링을 완수할 수 있었습니다.
@@ -74,6 +77,7 @@ Front-end Software Engineer
 <details>
 <summary>하위 사이트 모듈화 및 자동 로그인 연동 구현</summary>
 <div markdown="1">
+
 - 문제 상황
 
     Business
@@ -85,10 +89,10 @@ Front-end Software Engineer
     - 대기스크린은 메인 웹과 목적이 다르기도 하고, 새롭게 추가되어야 할 코드의 양이 방대하여 기존 Repository 의 설계 구조를 따르면 코드의 복잡성이 높아질 수 있습니다.
 
 - 해결 과정
-    - 로그인 인증 분리를 위해, 대기스크린 용 도메인(waiting-screen.pltt.cloud) 을 만들 것을 제안했습니다.
+    - 로그인 인증 분리를 위해, 대기스크린 용 도메인(waiting-screen.pltt.cloud) 을 만들었습니다.
         - AWS Route53 으로 도메인 등록 및 DNS 라우팅 설정
         - 해당 도메인에서는 유저 인터랙션 여부를 체크하지 않도록 함 
-    - 한 번 더 로그인 해야하는 번거로움을 줄이고자 인증번호를 통한 로그인 연동 방식을 제안했습니다.
+    - 한 번 더 로그인 해야하는 번거로움을 줄이고자 인증번호를 통한 로그인 연동 방식을 도입했습니다.
         - 닥터팔레트에서 받은 6자리 인증번호를 입력하면 자동으로 계정 연동
     - 대기스크린을 모듈화 했습니다.
         - 마이크로 프론트엔드 아키텍처를 활용하여 기존 Repository 내 별도 모듈로 분리 
@@ -102,6 +106,7 @@ Front-end Software Engineer
 <details>
 <summary>디자인 시스템 관리를 위한 스토리북 도입</summary>
 <div markdown="1">
+
 - 문제 상황
     - 디자인 시스템이 존재하지만, Figma 로만 관리되고 있습니다.
     - Figma 에는 간단한 스펙만 정의되어 있고, 세부적인 동작 방식은 개발자와 디자이너 간 구두 논의로 정해지는 경우가 빈번합니다. 
@@ -113,7 +118,7 @@ Front-end Software Engineer
         - AWS Route53 으로 도메인 설정 및 S3 버킷 설정
     - 스토리북에서 제공하는 문서화 툴을 적극적으로 활용했습니다. 
         - 컴포넌트의 사용법, 속성, 상태 등 정리
-        - 시각적으로 확인할 수 있도록 Use-Case 별 예시 기입
+        - 시각적으로 확인할 수 있도록 Usecase 별 예시 기입
     - 예기치 못한 UI 버그를 방지하기 위해  스토리북의 UI Test 기능을 활용했습니다.
         - GitHub Action 에 Visual Test 절차 추가하여 PR 마다 체크
 - 결과
@@ -125,6 +130,7 @@ Front-end Software Engineer
 <details>
 <summary>모바일 웹 브라우징 사용성 개선</summary>
 <div markdown="1">
+
 - 문제 상황
 
     Business
@@ -136,7 +142,7 @@ Front-end Software Engineer
         - 사용자가 즉각적이라고 느끼는 최대 지연 시간은 100ms라는 점을 감안했을 때, UX를 저하시키는 요인으로 작용하고 있습니다
 
 - 해결 과정
-    - MDN 문서를 통해 모바일 환경에서 onClick 함수가 터치 이벤트 발생 직후에 발생하지 않을 수 있음을 확인했습니다.
+    - MDN 문서를 통해 모바일 환경에서 click 함수가 터치 이벤트 발생 직후에 발생하지 않을 수 있음을 확인했습니다.
     - 터치 관련 이벤트 (touchstart, touchemove, touchend) 와 클릭 관련 이벤트 (click 등) 들을 실행시켜 보면서 이벤트 시퀀스를 확인했습니다.
         - touchstart -> touchemove -> touchend -> click 순으로 이벤트 발생하는 점 확인
     - PC에서는 click, 모바일에서는 touch 이벤트 리스너를 사용하는 것이 적합하다고 판단했습니다.
@@ -150,30 +156,27 @@ Front-end Software Engineer
 <details>
 <summary>Front-end 주도 GraphQL  Schema 설계</summary>
 <div markdown="1">
+
 - 문제상황
-    - 빠른 개발 속도가 중요한 상황이기에 GraphQL Schema 는 Back-end에서 설계하고, 이후 Front-end가 투입되는 방식으로 개발을 진행합니다.
-    - GraphQL 의 컨셉 상 버전 관리가 불가능하기에,  Back-end에서 Schema 변경 시 Front-end 에서 즉각적으로 대응을 해야합니다. 그렇지 않으면 컴파일 타임과 런타임 에러가 발생할 수 있습니다.
+    - 빠른 개발 속도가 중요한 상황이기에 GraphQL 스키마 는 Back-end에서 설계하고, 이후 Front-end가 투입되는 방식으로 개발을 진행합니다.
+    - GraphQL 의 컨셉 상 버전 관리가 불가능하기에,  Back-end에서 스키마 변경 시 Front-end 에서 즉각적으로 대응을 해야합니다. 그렇지 않으면 컴파일 타임과 런타임 에러가 발생할 수 있습니다.
         - 특히 런타임 에러인 경우 코드로 추적이 불가능하기 때문에, 미처 발견하지 못하고 실 서비스로 배포되는 경우도 발생했습니다.
-    - Front-end 의 구조를 고려하지 않고 설계된 schema 인 경우, 이를 사용하기 위해 불필요한 보일러 플레이트 코드가 추가되기도 합니다.
+    - Front-end 의 구조를 고려하지 않고 설계된 스키마 인 경우, 이를 사용하기 위해 불필요한 보일러 플레이트 코드가 추가되기도 합니다.
 - 해결 과정
-    - GraphQL의 장점인 ‘클라이언트에 최적화된 데이터’를 이용하기 위해, Front-end 가 주도적으로 Schema 설계에 참여하면 좋을 것 같다고 생각했습니다.
+    - GraphQL의 장점인 ‘클라이언트에 최적화된 데이터’를 이용하기 위해, Front-end 가 주도적으로 스키마 설계에 참여하면 좋을 것 같다고 생각했습니다.
     - 기획 문서와 디자인 문서를 파악한 후 .graphql 파일로 스키마를 정의했습니다.
         - 유저 액션에 기반하여 쿼리, 뮤테이션 정의
         - 화면을 구성하는 데 필요한 데이터 모델링 및 타입 (Interface, Union, Enum 등) 정의
         - 타입 내부에서 필요한 필드 정의
-    - 작성된 schema 파일은 팀 노션 페이지로 공유하고, 수정 사항이 생기면 버전 정보를 달아 추가 업로드 했습니다.
+    - 팀 노션에 스키마를 업로드하여, 수정 사항이 생길 경우 버전 정보를 달아 관리했습니다.
 
 - 결과
     - GraphQL의 장점을 최대한 활용하여 Front-end 개발자들이 필요로 하는 데이터를 쉽게 가져올 수 있게 되었습니다.
-    - 한 번 합의된 Schema 는 변경될 가능성이 적어, Schema 변경에 대응해야하는 시간이 감소했습니다.​
+    - 한 번 합의된 스키마 는 변경될 가능성이 적어, 스키마 변경에 대응해야하는 시간이 감소했습니다.​
     - 미처 발견하지 못한 런타임 에러를 방지하여 프로덕트의 안정성을 높일 수 있었습니다.
 </div>
 </details>
 
 ## Side Projects
-- 2023 코드잇 프론트엔드 부트캠프 멘토
+- 코드잇 프론트엔드 부트캠프 멘토
     - 멘티 6명의 프로젝트 코드리뷰 & 멘토링
-
-## Education
-
-- 중앙대학교, 광고홍보학과 (2014.03 - 2018.02)
