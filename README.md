@@ -14,7 +14,7 @@ Front-end Software Engineer
     저는 계약 병원 수 0 곳 일 때 합류하여 프로젝트 설계부터 배포까지 함께했으며, 현재는 100 곳이 넘는 병원에서 사용하고 있습니다.
     ```
 
-	 - 닥터팔레트 Web 프론트엔드 개발
+	- 닥터팔레트 Web 프론트엔드 개발
      - 닥터팔레트 Mobile App 프론트엔드 개발
 
 - KT 플레이디 (2019.06 ~ 2020.08)
@@ -25,7 +25,7 @@ Front-end Software Engineer
 
 - Languages
     - TypeScript, Dart
-- FrameWoks
+- Frameworks
     - React, NextJS
     - Flutter
 - State management tools
@@ -118,7 +118,7 @@ Front-end Software Engineer
         - AWS Route53 으로 도메인 설정 및 S3 버킷 설정
     - 스토리북에서 제공하는 문서화 툴을 적극적으로 활용했습니다. 
         - 컴포넌트의 사용법, 속성, 상태 등 정리
-        - 시각적으로 확인할 수 있도록 Usecase 별 예시 기입
+        - 시각적으로 확인할 수 있도록 Use Case 별 예시 기입
     - 예기치 못한 UI 버그를 방지하기 위해  스토리북의 UI Test 기능을 활용했습니다.
         - GitHub Action 에 Visual Test 절차 추가하여 PR 마다 체크
 - 결과
