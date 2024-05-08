@@ -39,6 +39,7 @@ Front-end Software Engineer
 ## Education
 
 - 중앙대학교, 광고홍보학과 (2014.03 - 2018.02)
+  
 ## Projects
 <details>
 <summary>테스트 주도 개발 도입</summary>
