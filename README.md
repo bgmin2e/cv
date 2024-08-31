@@ -3,15 +3,15 @@ Front-end Software Engineer
 
 - Email: rudals959559@email.com
 - GitHub: [bgmin2e](https://github.com/bgmin2e)
-- Blog: [bgmin2e/fragment_of_learning](https://github.com/bgmin2e/fragment_of_learning)
+- Blog: [medium/@bgmin2e](https://medium.com/@bgmin2e)
  
   
 ## Occupations
 
-- 메디블록 (2021.03 ~ 재직중)
+- 메디블록 (2021.03 ~ 2024.07)
     ```
-    헬스케어 스타트업 메디블록은 EMR 서비스인 '닥터팔레트'를 제공하고 있습니다. EMR이란, 병원에서 의사 선생님들이 사용하는 진료 기록 프로그램을 의미합니다.
-    저는 계약 병원 수 0 곳 일 때 합류하여 프로젝트 설계부터 배포까지 함께했으며, 현재는 100 곳이 넘는 병원에서 사용하고 있습니다.
+    헬스케어 스타트업 메디블록은 클라우드  EMR 서비스인 닥터팔레트를 제공하고 있습니다. EMR이란, 병원에서 의사 선생님들이 사용하는 진료 기록 프로그램을 의미합니다.
+    저는 계약 병원 수 0 곳 일 때 합류하여 프로젝트의 설계부터 배포까지 함께 하였습니다. 현재는 100 곳 이상의  병원에 서비스를 제공하고 있습니다.
     ```
 
 	- 닥터팔레트 Web 프론트엔드 개발
