@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FaGithub, FaEnvelope, FaGlobe } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -7,10 +8,12 @@ export default function Home() {
       <header className="mb-6">
         <div className="flex flex-col print:flex-row md:flex-row gap-4 items-center">
           <div className="w-24 h-24 rounded-full overflow-hidden flex-shrink-0">
-            <img
+            <Image
               src="/profile.png"
               alt="profile-image"
               className="w-full h-full object-cover"
+              width={96}
+              height={96}
             />
           </div>
 
@@ -110,10 +113,12 @@ export default function Home() {
 
           <div className="flex flex-row items-stretch gap-2 mb-4 bg-gray-50 rounded-md">
             <div className="flex-shrink-0 w-2/6 rounded-l-md overflow-hidden flex justify-center items-center">
-              <img
+              <Image
                 src="/drpalette-mobile.png"
                 alt="drpalette"
                 className="max-h-[180px] object-cotain"
+                width={200}
+                height={180}
               />
             </div>
             <div className="flex-grow w-4/6 p-2 text-gray-700 break-keep rounded-md text-sm overflow-auto flex justify-center flex-col">
@@ -202,7 +207,7 @@ export default function Home() {
             href="https://github.com/bgmin2e/gentle-mail"
             className="block border rounded-md overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
           >
-            <img src="/gentle-mail.png" className="w-full h-36 object-cover" />
+            <Image src="/gentle-mail.png" alt="Gentle Mail Project" className="w-full h-36 object-cover" width={400} height={144} />
             <div className="p-4">
               <h3 className="font-semibold text-lg">GentleMail</h3>
               <p className="text-gray-600 text-sm">
@@ -216,10 +221,12 @@ export default function Home() {
             href="https://github.com/bgmin2e/classic-wordle"
             className="block border rounded-md overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
           >
-            <img
+            <Image
               src="/classic-wordle.png"
               alt="Classic Wordle"
               className="w-full h-36 object-cover"
+              width={400}
+              height={144}
             />
             <div className="p-4">
               <h3 className="font-semibold text-lg">Classic Wordle</h3>

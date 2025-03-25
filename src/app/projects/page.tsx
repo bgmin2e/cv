@@ -136,7 +136,7 @@ export default function Projects() {
                 없을 경우 자동으로 로그인이 해제되어야 합니다.
               </li>
               <li>
-                그러나 '대기스크린' 페이지는 병원에서 오랜 시간 띄워두어야
+                그러나 &apos;대기스크린&apos; 페이지는 병원에서 오랜 시간 띄워두어야
                 하기에, 유저가 직접 로그아웃 하기 전까지 자동으로 로그인을
                 해제하면 안됩니다.
               </li>
@@ -332,7 +332,7 @@ export default function Projects() {
                 적합하다고 판단했습니다.
                 <ul className="list-circle list-inside ml-8 text-gray-700">
                   <li>
-                    모바일 기기인 경우 "touch"를, PC인 경우 "click" 을 반환하는
+                    모바일 기기인 경우 &quot;touch&quot;를, PC인 경우 &quot;click&quot; 을 반환하는
                     이벤트 타입 변환 함수 구현
                   </li>
                 </ul>
@@ -388,7 +388,7 @@ export default function Projects() {
             <h4 className="font-semibold mt-6 mb-2 text-lg">해결 과정</h4>
             <ul className="list-disc list-inside ml-4 text-gray-800">
               <li>
-                GraphQL의 장점인 '클라이언트에 최적화된 데이터'를 이용하기 위해,
+                GraphQL의 장점인 &apos;클라이언트에 최적화된 데이터&apos;를 이용하기 위해,
                 Front-end 가 주도적으로 스키마 설계에 참여하면 좋을 것 같다고
                 생각했습니다.
               </li>
