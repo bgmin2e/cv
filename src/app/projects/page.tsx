@@ -62,11 +62,11 @@ export default function Projects() {
                 테스트 코드를 먼저 작성하고, 이를 통과하는 보험자격 조회 로직을
                 작성하면 안정성을 보장할 수 있을 것이라고 판단했습니다.
                 <ul className="list-circle list-inside ml-8 text-gray-700">
-                  <li>Jest 라이브러리 초기 셋팅</li>
-                  <li>시범적으로 보험자격 조회 기능의 Unit Test 부터 작성</li>
+                  <li>- Jest 라이브러리 초기 셋팅</li>
+                  <li>- 시범적으로 보험자격 조회 기능의 Unit Test 부터 작성</li>
                   <li>
-                    단순 테스트 목적 뿐 아니라, 개발 명세서로서의 역할도 수행할
-                    수 있도록 BDD(Behavior-Driven Development) 컨셉 적용
+                    - 단순 테스트 목적 뿐 아니라, 개발 명세서로서의 역할도
+                    수행할 수 있도록 BDD(Behavior-Driven Development) 컨셉 적용
                   </li>
                 </ul>
               </li>
@@ -75,11 +75,11 @@ export default function Projects() {
                 될 것이라고 판단했습니다.
                 <ul className="list-circle list-inside ml-8 text-gray-700">
                   <li>
-                    의도치 않은 Side Effect 방지를 위해 React State 최소화 &
+                    - 의도치 않은 Side Effect 방지를 위해 React State 최소화 &
                     순수 함수로만 작성
                   </li>
                   <li>
-                    보험자격 분류 로직과 UI Rendering 함수를 분리하여 테스트
+                    - 보험자격 분류 로직과 UI Rendering 함수를 분리하여 테스트
                     소요 시간 최소화
                   </li>
                 </ul>
@@ -136,9 +136,9 @@ export default function Projects() {
                 없을 경우 자동으로 로그인이 해제되어야 합니다.
               </li>
               <li>
-                그러나 &apos;대기스크린&apos; 페이지는 병원에서 오랜 시간 띄워두어야
-                하기에, 유저가 직접 로그아웃 하기 전까지 자동으로 로그인을
-                해제하면 안됩니다.
+                그러나 &apos;대기스크린&apos; 페이지는 병원에서 오랜 시간
+                띄워두어야 하기에, 유저가 직접 로그아웃 하기 전까지 자동으로
+                로그인을 해제하면 안됩니다.
               </li>
             </ul>
 
@@ -161,9 +161,9 @@ export default function Projects() {
                 로그인 인증 분리를 위해, 대기스크린 용
                 도메인(waiting-screen.pltt.cloud) 을 만들었습니다.
                 <ul className="list-circle list-inside ml-8 text-gray-700">
-                  <li>AWS Route53 으로 도메인 등록 및 DNS 라우팅 설정</li>
+                  <li>- AWS Route53 으로 도메인 등록 및 DNS 라우팅 설정</li>
                   <li>
-                    해당 도메인에서는 유저 인터랙션 여부를 체크하지 않도록 함
+                    - 해당 도메인에서는 유저 인터랙션 여부를 체크하지 않도록 함
                   </li>
                 </ul>
               </li>
@@ -172,8 +172,8 @@ export default function Projects() {
                 로그인 연동 방식을 도입했습니다.
                 <ul className="list-circle list-inside ml-8 text-gray-700">
                   <li>
-                    닥터팔레트에서 받은 6자리 인증번호를 입력하면 자동으로 계정
-                    연동
+                    - 닥터팔레트에서 받은 6자리 인증번호를 입력하면 자동으로
+                    계정 연동
                   </li>
                 </ul>
               </li>
@@ -181,11 +181,11 @@ export default function Projects() {
                 대기스크린을 모듈화 했습니다.
                 <ul className="list-circle list-inside ml-8 text-gray-700">
                   <li>
-                    마이크로 프론트엔드 아키텍처를 활용하여 기존 Repository 내
+                    - 마이크로 프론트엔드 아키텍처를 활용하여 기존 Repository 내
                     별도 모듈로 분리
                   </li>
                   <li>
-                    독립적인 배포가 가능하도록 스크립트 작성 및 Github Action
+                    - 독립적인 배포가 가능하도록 스크립트 작성 및 Github Action
                     수정
                   </li>
                 </ul>
@@ -234,28 +234,18 @@ export default function Projects() {
                 디자인 컴포넌트 공유 및 협업을 위해 스토리북을 도입해야겠다고
                 판단했습니다.
                 <ul className="list-circle list-inside ml-8 text-gray-700">
-                  <li>스토리북 초기 환경 설정</li>
+                  <li>- 스토리북 초기 환경 설정</li>
                   <li>
-                    디자이너와 소통하여 컴포넌트 분류 기준 정리하고 폴더 구조
+                    - 디자이너와 소통하여 컴포넌트 분류 기준 정리하고 폴더 구조
                     확립
                   </li>
-                  <li>AWS Route53 으로 도메인 설정 및 S3 버킷 설정</li>
                 </ul>
               </li>
               <li>
                 스토리북에서 제공하는 문서화 툴을 적극적으로 활용했습니다.
                 <ul className="list-circle list-inside ml-8 text-gray-700">
-                  <li>컴포넌트의 사용법, 속성, 상태 등 정리</li>
-                  <li>시각적으로 확인할 수 있도록 Use Case 별 예시 기입</li>
-                </ul>
-              </li>
-              <li>
-                예기치 못한 UI 버그를 방지하기 위해 스토리북의 UI Test 기능을
-                활용했습니다.
-                <ul className="list-circle list-inside ml-8 text-gray-700">
-                  <li>
-                    GitHub Action 에 Visual Test 절차 추가하여 PR 마다 체크
-                  </li>
+                  <li>- 컴포넌트의 사용법, 속성, 상태 등 정리</li>
+                  <li>- 시각적으로 확인할 수 있도록 Use Case 별 예시 기입</li>
                 </ul>
               </li>
             </ul>
@@ -317,13 +307,12 @@ export default function Projects() {
                 직후에 발생하지 않을 수 있음을 확인했습니다.
               </li>
               <li>
-                터치 관련 이벤트 (touchstart, touchemove, touchend) 와 클릭 관련
-                이벤트 (click 등) 들을 실행시켜 보면서 이벤트 시퀀스를
-                확인했습니다.
+                터치 관련 이벤트 (touchstart, touchend) 와 클릭 관련 이벤트
+                (click 등) 들을 실행시켜 보면서 이벤트 시퀀스를 확인했습니다.
                 <ul className="list-circle list-inside ml-8 text-gray-700">
                   <li>
-                    touchstart - &gt; touchemove -&gt; touchend -&gt; click
-                    순으로 이벤트 발생하는 점 확인
+                    - touchstart &gt; touchend &gt; click 순으로 이벤트 발생하는
+                    점 확인
                   </li>
                 </ul>
               </li>
@@ -332,8 +321,8 @@ export default function Projects() {
                 적합하다고 판단했습니다.
                 <ul className="list-circle list-inside ml-8 text-gray-700">
                   <li>
-                    모바일 기기인 경우 &quot;touch&quot;를, PC인 경우 &quot;click&quot; 을 반환하는
-                    이벤트 타입 변환 함수 구현
+                    - 모바일 기기인 경우 &quot;touch&quot;를, PC인 경우
+                    &quot;click&quot; 을 반환하는 이벤트 타입 변환 함수 구현
                   </li>
                 </ul>
               </li>
@@ -359,20 +348,19 @@ export default function Projects() {
           className="border rounded-lg p-6 shadow-sm bg-white"
         >
           <h2 className="text-2xl font-bold mb-6 pb-2 border-b text-blue-700">
-            Front-end 주도 GraphQL Schema 설계
+            Frontend 주도 GraphQL Schema 설계
           </h2>
 
           <div>
             <h4 className="font-semibold mb-2 text-lg">문제 상황</h4>
             <ul className="list-disc list-inside ml-4 text-gray-800">
               <li>
-                빠른 개발 속도가 중요한 상황이기에 GraphQL 스키마 는
-                Back-end에서 설계하고, 이후 Front-end가 투입되는 방식으로 개발을
-                진행합니다.
+                빠른 개발 속도가 중요한 상황이기에 GraphQL 스키마 는 Backend에서
+                설계하고, 이후 Front-end가 투입되는 방식으로 개발을 진행합니다.
               </li>
               <li>
                 GraphQL 의 컨셉 상 버전 관리가 불가능하기에, Back-end에서 스키마
-                변경 시 Front-end 에서 즉각적으로 대응을 해야합니다. 그렇지
+                변경 시 Frontend 에서 즉각적으로 대응을 해야합니다. 그렇지
                 않으면 컴파일 타임과 런타임 에러가 발생할 수 있습니다.
               </li>
               <li>
@@ -380,7 +368,7 @@ export default function Projects() {
                 발견하지 못하고 실 서비스로 배포되는 경우도 발생했습니다.
               </li>
               <li>
-                Front-end 의 구조를 고려하지 않고 설계된 스키마 인 경우, 이를
+                Frontend 의 구조를 고려하지 않고 설계된 스키마 인 경우, 이를
                 사용하기 위해 불필요한 보일러 플레이트 코드가 추가되기도 합니다.
               </li>
             </ul>
@@ -388,20 +376,20 @@ export default function Projects() {
             <h4 className="font-semibold mt-6 mb-2 text-lg">해결 과정</h4>
             <ul className="list-disc list-inside ml-4 text-gray-800">
               <li>
-                GraphQL의 장점인 &apos;클라이언트에 최적화된 데이터&apos;를 이용하기 위해,
-                Front-end 가 주도적으로 스키마 설계에 참여하면 좋을 것 같다고
-                생각했습니다.
+                GraphQL의 장점인 &apos;클라이언트에 최적화된 데이터&apos;를
+                이용하기 위해, Frontend 가 주도적으로 스키마 설계에 참여하면
+                좋을 것 같다고 생각했습니다.
               </li>
               <li>
                 기획 문서와 디자인 문서를 파악한 후 .graphql 파일로 스키마를
                 정의했습니다.
                 <ul className="list-circle list-inside ml-8 text-gray-700">
-                  <li>유저 액션에 기반하여 쿼리, 뮤테이션 정의</li>
+                  <li>- 유저 액션에 기반하여 쿼리, 뮤테이션 정의</li>
                   <li>
-                    화면을 구성하는 데 필요한 데이터 모델링 및 타입 (Interface,
-                    Union, Enum 등) 정의
+                    - 화면을 구성하는 데 필요한 데이터 모델링 및 타입
+                    (Interface, Union, Enum 등) 정의
                   </li>
-                  <li>타입 내부에서 필요한 필드 정의</li>
+                  <li>- 타입 내부에서 필요한 필드 정의</li>
                 </ul>
               </li>
               <li>
@@ -413,8 +401,8 @@ export default function Projects() {
             <h4 className="font-semibold mt-6 mb-2 text-lg">결과</h4>
             <ul className="list-disc list-inside ml-4 text-gray-800">
               <li>
-                GraphQL의 장점을 최대한 활용하여 Front-end 개발자들이 필요로
-                하는 데이터를 쉽게 가져올 수 있게 되었습니다.
+                GraphQL의 장점을 최대한 활용하여 Frontend 개발자들이 필요로 하는
+                데이터를 쉽게 가져올 수 있게 되었습니다.
               </li>
               <li>
                 한 번 합의된 스키마는 변경될 가능성이 적어, 스키마 변경에
